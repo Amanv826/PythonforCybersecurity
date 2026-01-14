@@ -10,3 +10,4 @@
 #Print hello and their name
 user_name = input("What is your name")
 print("Hello {0}",format(user_name))
+print("Today is going to be a good day")
