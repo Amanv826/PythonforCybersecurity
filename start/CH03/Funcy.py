@@ -1,19 +1,21 @@
 #!/usr/bin/env python3
 # example workign with Functions
-#By Aman Vohra 1/21/26
+#By Aman Vohra  on 2/2/2026
 
-#prompt use to answer a question
-good_day_question = "Is today a good day? (y/n) "
-user_response = input(good_day_question)
-#Store in variable
+#This is my function
+def print_me(send_message):
+    print_me(send_message): 
+    return "Yeah it is"
 
-#if yes print a response
-if user_response == "y":
-    for count in range(10):
-        print("Yes it is")
-elif user_response == "Y":
-    print("That's amazing")
-else:
-    print("I hope it gets better.")
+def send_message (num_times):
+    for x in range (num_times):
+        print("Yeah it is")
 
 
+
+#calling the function
+print_me("This is a function")
+result = print_me ("This is another function with a return value")
+print(Yeah it is) 
+
+send_message(3)
